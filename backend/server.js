@@ -13,7 +13,7 @@ const app = express();
 // app.use(express.json());
 app.use(cors({
   origin: [
-    'https://sparkling-pony-c70e68.netlify.app',  // Your Netlify URL
+    'https://wellnesspath22.netlify.app',  // Your Netlify URL
     'http://localhost:5173'  // For local development
   ],
   credentials: true,
@@ -44,3 +44,4 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
